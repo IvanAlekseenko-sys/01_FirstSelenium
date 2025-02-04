@@ -1,23 +1,8 @@
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
-
-public class FindElementsHW {
-    WebDriver driver;
-
-    @BeforeMethod
-    public void setUp() {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("https://demowebshop.tricentis.com/");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-    }
+public class FindElementsHw extends TestBaseHw {
 
     @Test
     public void findElementsByCssSelector() {
@@ -50,10 +35,5 @@ public class FindElementsHW {
 
         WebElement elementPopularTags = driver.findElement(By.cssSelector(".block-popular-tags strong"));
         System.out.println("Шрифт элемента популярные теги имеет следующие свойства:  " + elementPopularTags.getCssValue("font"));
-    }
-
-    @AfterMethod
-    public void tearDown() {
-        driver.quit();
     }
 }

@@ -1,0 +1,39 @@
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import java.time.Duration;
+
+
+public class FirstSeleniumTest {
+  WebDriver driver;
+
+  @BeforeMethod
+  public void setUp() {
+    driver = new ChromeDriver(); // Запускаем браузер Chrome
+    driver.get("https://www.google.com"); // Не сохраняет историю,get(url) сбрасывает историю браузера.
+    //driver.navigate().to("https://www.google.com"); // Сохраняет историю, при тестировании кнопок "Назад" и "Вперед" в браузере
+    driver.manage().window().maximize(); // Разворачивает окно браузера на весь экран
+    driver.navigate().back(); // Возвращает на предыдущую страницу
+    driver.navigate().forward(); // Переводит вперёд
+    driver.navigate().refresh(); // Обновляет страницу
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); // Неявное ожидание перед тем, как WebDriver выбросит исключение NoSuchElementException, если элемент не найден.
+    System.out.println("Step 1");
+  }
+
+  @Test
+  public void openGoogle() {
+    System.out.println("Opening Google");
+    System.out.println("Step 2");
+  }
+
+  @AfterMethod
+  public void tearDown() {
+    driver.quit(); // Закрывает браузер
+    System.out.println("Step 3");
+    //driver.close(); // Закрывает вкладку
+  }
+}

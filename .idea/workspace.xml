@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da963522-8f52-49b6-9142-ab2ac320a98f" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FindElementsXpathHW.java" afterDir="false" />
+    <list default="true" id="da963522-8f52-49b6-9142-ab2ac320a98f" name="Changes" comment="Xpath upd">
+      <change afterPath="$PROJECT_DIR$/src/main/java/FirstSeleniumTest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomePageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestBaseHw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindElementsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FirstSeleniumTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindElementsHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindElementsHw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindElementsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindElementsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindElementsXpathHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindElementsXpathHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FirstSeleniumTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +63,13 @@
     "TestNG.FindElements.FindElementsByLocator.executor": "Run",
     "TestNG.FindElements.executor": "Run",
     "TestNG.FindElementsHW.executor": "Run",
+    "TestNG.FindElementsHw.executor": "Run",
     "TestNG.FindElementsTests.executor": "Run",
+    "TestNG.FindElementsTests.siblingsTest.executor": "Run",
+    "TestNG.FindElementsTests.siblingsTestXpath.executor": "Run",
     "TestNG.FindElementsXpathHW.executor": "Run",
     "TestNG.FirstSeleniumTest.executor": "Run",
+    "TestNG.HomePageTests.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -70,6 +79,30 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="FindElementsTests.siblingsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="01_FirstSelenium.main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FindElementsTests" />
+      <option name="METHOD_NAME" value="siblingsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindElementsTests.siblingsTestXpath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="01_FirstSelenium.main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FindElementsTests" />
+      <option name="METHOD_NAME" value="siblingsTestXpath" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindElements.FindElementsByLocator" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="01_FirstSelenium.main" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,6 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FindElementsTests.siblingsTestXpath" />
+        <item itemvalue="TestNG.FindElementsTests.siblingsTest" />
         <item itemvalue="TestNG.FindElements.FindElementsByLocator" />
       </list>
     </recent_temporary>
@@ -105,12 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1738448232204</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Xpath upd">
+      <option name="closed" value="true" />
+      <created>1738622791696</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738622791696</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Xpath upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Xpath upd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -122,7 +166,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/FindElementsTests.java</url>
-          <line>63</line>
+          <line>65</line>
           <properties class="FindElementsTests" method="byID">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
