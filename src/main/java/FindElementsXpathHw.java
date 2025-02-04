@@ -2,7 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class FindElementsXpathHW extends TestBaseHw {
+public class FindElementsXpathHw extends TestBaseHw {
 
     @Test
     public void findElementByXpath() {
