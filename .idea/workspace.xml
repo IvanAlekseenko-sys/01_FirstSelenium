@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da963522-8f52-49b6-9142-ab2ac320a98f" name="Changes" comment="TestBase upd" />
+    <list default="true" id="da963522-8f52-49b6-9142-ab2ac320a98f" name="Changes" comment="TestBase upd">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindElementsHw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindElementsHw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindElementsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindElementsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindElementsXpathHw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindElementsXpathHw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FirstSeleniumTest" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestBaseHw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBaseHw.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.01_FirstSelenium.executor": "Run",
     "Gradle.Build 01_FirstSelenium.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -65,7 +76,7 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Ivan/AIT-TR/01_FirstSelenium",
     "onboarding.tips.debug.path": "C:/Users/Ivan/AIT-TR/01_FirstSelenium/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RunManager">
@@ -159,12 +170,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/FindElementsTests.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/FindElementsTests.java</url>
           <line>65</line>
           <properties class="FindElementsTests" method="byID">
             <option name="EMULATED" value="true" />
