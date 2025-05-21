@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da963522-8f52-49b6-9142-ab2ac320a98f" name="Changes" comment="TestBase upd">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="da963522-8f52-49b6-9142-ab2ac320a98f" name="Changes" comment=" structure upd">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindElementsHw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindElementsHw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindElementsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindElementsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindElementsXpathHw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindElementsXpathHw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstSeleniumTest" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestBaseHw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBaseHw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomePageTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +43,14 @@
     &quot;accountId&quot;: &quot;7dd6c439-8724-441d-8958-3370d0d7f9c4&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2sMj8fvGiP7ZbX8x1qELHq23uu7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -74,9 +73,18 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ivan/AIT-TR/01_FirstSelenium",
+    "last_opened_file_path": "C:/Users/Ivan/AIT-TR/5_licarro_Cucumber",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Ivan/AIT-TR/01_FirstSelenium/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
@@ -124,6 +132,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -132,6 +148,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738272180642</updated>
+      <workItem from="1747861748023" duration="396000" />
+      <workItem from="1747862198252" duration="4562000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -157,14 +175,26 @@
       <option name="project" value="LOCAL" />
       <updated>1738704223167</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" structure upd">
+      <option name="closed" value="true" />
+      <created>1738744489161</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738744489161</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Xpath upd" />
     <MESSAGE value="TestBase upd" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestBase upd" />
+    <MESSAGE value=" structure upd" />
+    <option name="LAST_COMMIT_MESSAGE" value=" structure upd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
